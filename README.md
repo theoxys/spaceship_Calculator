@@ -1,46 +1,32 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Spaceship Calculator Screenshot](https://github.com/theoxys/spaceship_Calculator/blob/master/Screenshots/screenshot.png?raw=true)
 
-## Available Scripts
+# Spaceship Calculator
 
-In the project directory, you can run:
+Aplicação construída para determinar o numero de paradas necessárias para percorrer determinada distância utilizando as naves disponíveis na api SWAPI ( https://swapi.dev/ ).
 
-### `yarn start`
+O cálculo é feito com base na quantidade dde consumíveis disponíveis na aeronave, na velocidade em MGLT ( Megalight per hour ), e na distância que deverá ser percorrida.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Sobre a aplicação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A aplicação foi 100% desenvolvida em React utilizando Typescript. Para o gerenciamento de estado dos componentes foram utilizados os React Hooks e para as chamadas na API foi utilizado o Axios. A criação dos estilos dos componentes foi feita utilizando Styled Components e a prototipação de interface foi construida no Figma.
 
-### `yarn test`
+Também foram utilizada outras bibliotecas como Eslint para padronização e organização do código, MomentJS para formatação de unidades de tempo e React-Icons para estilização.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalação e Execução
 
-### `yarn build`
+Comandos para instalação:
+```
+	$ npm install
+	# ou caso utilize yarn
+	$ yarn install
+```
+Comandos para Execução:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+	$ npm install
+	# ou caso utilize yarn
+	$ yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+O projeto irá iniciar em: http://localhost:3000/
