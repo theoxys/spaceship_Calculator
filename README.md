@@ -7,6 +7,8 @@ Aplicação construída para determinar o numero de paradas necessárias para pe
 
 O cálculo é feito com base na quantidade dde consumíveis disponíveis na aeronave, na velocidade em MGLT ( Megalight per hour ), e na distância que deverá ser percorrida.
 
+informações sobre os calculos retiradas de: https://starwars.fandom.com/
+
 ## Sobre a aplicação
 
 A aplicação foi 100% desenvolvida em React utilizando Typescript. Para o gerenciamento de estado dos componentes foram utilizados os React Hooks e para as chamadas na API foi utilizado o Axios. A criação dos estilos dos componentes foi feita utilizando Styled Components e a prototipação de interface foi construida no Figma.
