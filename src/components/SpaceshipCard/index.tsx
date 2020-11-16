@@ -22,7 +22,7 @@ const SpaceshipCard: React.FC<SpaceshipCardProps> = (props) => {
         </p>
         {(mglt === 'unknown') ? (<Ukn>Velocidade desconhecida</Ukn>) : (
           <p>
-            Paradas Necessarias:
+            Paradas Necessárias:
             {' '}
             <Stops>{stops}</Stops>
           </p>

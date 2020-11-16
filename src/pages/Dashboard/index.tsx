@@ -53,8 +53,8 @@ const Dashboard: React.FC = () => {
     <Container>
       <Instructions>
         <Logo src={LogoImg} alt="Spaceship calculator" />
-        <Title>Programe suas paradas antes de inicar sua viagem interplanetaria!</Title>
-        <Subtitle>Insira a distancia a ser percorrida em MGLT</Subtitle>
+        <Title>Programe suas paradas antes de inicar sua viagem interplanetária!</Title>
+        <Subtitle>Insira a distância a ser percorrida em MGLT</Subtitle>
         <Form>
           <input
             value={distance}
@@ -64,10 +64,10 @@ const Dashboard: React.FC = () => {
           />
         </Form>
         <Info>
-          Nosso calculo é feito com base na quantidade de consumiveis
-          suportado pela espaçonave e pela sua velocidade. Caso alguma
-          dessas informações seja desconhecida não é possivel determinar
-          o numero de paradas! 🚀
+          Nosso cálculo é feito com base na quantidade de consumíveis
+          suportados pela espaçonave e pela sua velocidade. Caso alguma
+          dessas informações seja desconhecida não será possível determinar
+          o número de paradas! 🚀
         </Info>
       </Instructions>
       <SpaceshipsWrapper>
