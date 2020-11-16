@@ -18,14 +18,18 @@ Também foram utilizada outras bibliotecas como Eslint para padronização e org
 Comandos para instalação:
 ```
 	$ npm install
-	# ou caso utilize yarn
+
+	# ou caso utilize yarn:
+
 	$ yarn install
 ```
 Comandos para Execução:
 
 ```
 	$ npm install
-	# ou caso utilize yarn
+
+	# ou caso utilize yarn:
+
 	$ yarn install
 ```
 
