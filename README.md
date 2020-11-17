@@ -28,11 +28,11 @@ Comandos para instalação:
 Comandos para Execução:
 
 ```
-	$ npm install
+	$ npm start
 
 	# ou caso utilize yarn:
 
-	$ yarn install
+	$ yarn start
 ```
 
 O projeto irá iniciar em: http://localhost:3000/
